@@ -1,0 +1,15 @@
+
+# find the sum of two numbers by using while loop in Python
+
+n = int(input("Enter n: "))
+
+
+# let take a variable called x
+x = 0
+i = 1
+
+while i <= n:
+    x = x+ i
+    i = i+1    
+# print the sum
+print("The sum is", x)
