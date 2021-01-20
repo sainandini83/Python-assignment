@@ -1,0 +1,17 @@
+Write a Python Program for factorial of a number  
+
+def factorial(n): #define a fuction for factorial
+    if n < 0: 
+        return 0
+    elif n == 0 or n == 1: 
+        return 1
+    else: 
+        fact = 1
+        while(n > 1): 
+            fact *= n 
+            n -= 1
+        return fact 
+  
+num = 32; 
+print("Factorial of",num,"is", 
+factorial(num)) 
