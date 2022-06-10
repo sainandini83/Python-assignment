@@ -1,0 +1,17 @@
+import datetime
+import random
+color=["red","blue","pink","yellow"]
+spchar=["$","#","@","!"]
+dt = datetime.datetime.now()
+d=str(dt.year)
+#random pick of colour
+z=random.choice(color)
+#random pick of special character
+y=random.choice(spchar)
+x=str(random.randint(1,100))
+print(d)
+print(z)
+print(y)
+print(x)
+uid=d+y+x+z
+print("The unique ID generated is: ",uid)
